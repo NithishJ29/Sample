@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:varidose/addInfo.dart';
+import 'package:varidose/add_contacts.dart';
 import 'package:varidose/homeScreen.dart';
 import 'package:varidose/help.dart';
 import 'package:varidose/network_List.dart';

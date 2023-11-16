@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:varidose/add_contacts.dart';
+import 'package:varidose/history.dart';
 
 class IconBar extends StatefulWidget {
   const IconBar({super.key});
@@ -26,6 +28,16 @@ class _IconBarState extends State<IconBar> {
               setState(() {
                 selectedIndexIcon = index;
               });
+              if (index == 1) {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const History()));
+              } else if (index == 2) {
+              } else if (index == 3) {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const AddFriend()));
+              } else {
+                Navigator.pop(context);
+              }
             },
             child: Column(
               children: [

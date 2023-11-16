@@ -186,22 +186,22 @@ class DeviceList extends StatelessWidget {
                     Container(
                         //color: const Color(0xFF5CE0E6),
                         width: 200,
-                        margin: EdgeInsets.only(top: 150, left: 60),
+                        margin: const EdgeInsets.only(top: 150, left: 60),
                         child: ElevatedButton(
                           onPressed: () {
                             Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => NetworkList()));
+                                    builder: (context) => const NetworkList()));
                           },
-                          child: const Text(
-                            'Connect',
-                            style: TextStyle(color: Colors.black),
-                          ),
                           style: ElevatedButton.styleFrom(
                               backgroundColor: const Color(0xFF5CE0E6),
                               shape: RoundedRectangleBorder(
                                   borderRadius: BorderRadius.circular(20))),
+                          child: const Text(
+                            'Connect',
+                            style: TextStyle(color: Colors.black),
+                          ),
                         ))
                   ],
                 ),

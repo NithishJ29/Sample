@@ -173,7 +173,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           margin: const EdgeInsets.only(left: 45, top: 218),
                           child: Image.asset('Images/Pyxill1 (1) 1.png')),
                       Container(
-                        margin: EdgeInsets.only(left: 173, top: 245),
+                        margin: const EdgeInsets.only(left: 173, top: 245),
                         child: const Text(
                           'Pair Your Device',
                           textAlign: TextAlign.center,

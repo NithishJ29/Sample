@@ -53,6 +53,13 @@ dev_dependencies:
   expandable_widgets: ^1.0.3+1
   tap_to_expand: ^0.6.1
   score_progress_pretty_display: ^1.0.5
+  url_launcher: ^6.2.1
+  contacts_service: ^0.6.3
+  speedometer_chart: ^1.0.5
+  omni_datetime_picker: ^1.0.9
+  flutter_contacts: ^1.1.7+1
+  fluttercontactpicker: ^4.7.0
+  
   
 
 # For information on the generic Dart part of this file, see the
